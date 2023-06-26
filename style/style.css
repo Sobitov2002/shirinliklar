@@ -111,12 +111,14 @@
 
 .main-banner__btn_2{
     font-size: 18px;
+    border: none;   
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     padding: 30px 50px;
     border-radius: 5px;
     background-color: #FED84C;
     transition: all .3s ease;
+    
 }
 .main-banner__btn_2:hover{
     background-color: white;
@@ -248,7 +250,7 @@
     }
     .banner{
         width: 100%;
-        margin-top: 138px;
+        margin-top: 118px;
     }
     .main-banner_text{
         font-size: 30px;
@@ -256,13 +258,14 @@
     .main-banner__paragraf{
         font-size: 12px;
         width: 80%;
+        
     }
     .main-banner__btn_2{
         padding: 15px 25px;
         font-size: 13px;
     }
     .main-section{
-    height: 650px;
+    height: 700px;
 
     }
 
