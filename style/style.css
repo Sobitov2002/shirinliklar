@@ -47,6 +47,7 @@
     color: white;
     text-decoration: none;
     font-family: 'Montserrat',sans-serif;
+    white-space: nowrap;
 }
 .logo{
     font-size: 12px;
@@ -63,7 +64,11 @@
 .number-phone > i{
     margin-right: 15px;
 }
-
+.burger{
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 
 
@@ -126,7 +131,7 @@
 @media screen and (max-width: 1200px) {
     .banner{
         width: 547px;
-        margin-left: 100px;
+        margin-left: 10px;
     }
     .main-banner_text{
         font-size: 44px;
@@ -140,6 +145,92 @@
     }
     
     .main-banner__btn_2{
+        padding: 20px 40px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+   .site-logo{
+    font-size: 17px;
+   }
+   .logo{
+        font-size: 10px;
+   }
+   .number-phone{
+    font-size: 16px;
+
+   }
+}
+
+@media screen and (max-width:950px){
+    .logo{
+        font-size: 10px;
+    }
+    .number-phone{
+        font-size: 12px;
+    }
+    .logo > i{
+        margin-right: 5px;
+    }
+    .number-phone > i{
+        margin-right: 5px;
+    }
+    
+    .banner{
+        width: 350px;
+    }
+    .main-banner_text{
+        font-size:39px;
+        line-height: 40px;
+    }
+    .main-banner__paragraf{
+        font-size: 15px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .burger{
+        display: none;
+    }
+    .item{
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 120px;
+        text-align: right;
+        right:  50px;
+        z-index: 2;
+        flex-direction: column;
+    }
+     .number-phone{
+        margin-top: 25px;
+    }
+    .logo{
+        margin-top: 5px;
+    }
+    .list-items{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .navigation-list__items-2{
+        position: relative;
         
     }
+}
+@media screen and (max-width:550px) {
+    .burger{
+        display: none;
+    }
+    .navigation-list__items-2{
+        position: relative;
+        top: 60px;
+        
+    }
+    .navigation-list__items-2{ 
+    }
+    
+  
 }
