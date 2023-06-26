@@ -197,6 +197,9 @@
 }
 
 @media screen and (max-width:800px) {
+    .site-logo{
+       font-size: 17px; 
+    }
     .burger{
         display: none;
     }
@@ -254,6 +257,7 @@
     }
     .main-banner_text{
         font-size: 30px;
+        line-height: 35px;
     }
     .main-banner__paragraf{
         font-size: 12px;
