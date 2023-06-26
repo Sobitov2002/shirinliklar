@@ -188,6 +188,10 @@
         font-size: 15px;
         width: 400px;
     }
+    .main-banner__btn_2{
+        padding: 17px 35px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -200,12 +204,13 @@
         width: 200px;
         height: 120px;
         text-align: right;
-        right:  50px;
+        right:  30px;
         z-index: 2;
         flex-direction: column;
     }
      .number-phone{
         margin-top: 25px;
+        margin-left: 93px;
     }
     .logo{
         margin-top: 5px;
@@ -247,6 +252,10 @@
     .main-banner__paragraf{
         font-size: 12px;
         width: 80%;
+    }
+    .main-banner__btn_2{
+        padding: 15px 30px;
+        font-size: 15px;
     }
 
 
