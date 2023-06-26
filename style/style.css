@@ -224,6 +224,9 @@
         position: relative;
         
     }
+    .banner{
+        margin-top: 158;
+    }
 }
 @media screen and (max-width:550px) {
     .burger{
@@ -245,6 +248,7 @@
     }
     .banner{
         width: 100%;
+        margin-top: 138px;
     }
     .main-banner_text{
         font-size: 30px;
@@ -256,6 +260,10 @@
     .main-banner__btn_2{
         padding: 15px 25px;
         font-size: 13px;
+    }
+    .main-section{
+    height: 650px;
+
     }
 
 
