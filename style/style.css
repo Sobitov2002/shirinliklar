@@ -318,6 +318,11 @@
         margin-top: 158;
     }
 }
+@media screen and (max-width:770px){
+    .box{
+        margin-left: 100px;
+    }
+}
 @media screen and (max-width:550px) {
     .burger{
         display: none;
@@ -362,5 +367,13 @@
     .product-section__text{
         font-size: 20px;
     }
+    .box{
+        margin-left: 100px;
+    }
   
+}
+@media screen and (max-width:440px) {
+    .box{
+        margin-left: 20px;
+    }
 }
